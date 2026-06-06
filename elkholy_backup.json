@@ -1,0 +1,1607 @@
+{
+  "type": "elkholy_backup_json",
+  "version": "1.0",
+  "timestamp": "2026-06-06T11:26:42.680Z",
+  "motorcycles": [
+    {
+      "discount": 11,
+      "discountType": "fixed",
+      "serialCode": "099000",
+      "id": "adventure-aurora-explorer",
+      "isCustom": true,
+      "price": "47,989 جنيه",
+      "originalPrice": 48000,
+      "categoryName": "Adventure",
+      "priceNum": 47989,
+      "longDesc": "Whether tracking through remote mountain pathways or embarking on continental tours, the Aurora Explorer delivers supreme stability and cargo space. Double-layered carbon armor bars defend crucial mechanisms from impact.",
+      "catalogFileContent": "",
+      "offerLabel": "",
+      "shortDesc": "Luxury heavy-touring ship equipped with heated seats, satellite navigation HUD, and carbon safety armor.",
+      "catalogFileName": "",
+      "tagline": "The Long Range Pioneer",
+      "specs": {
+        "topSpeed": "220 km/h",
+        "weight": "230 kg",
+        "engine": "1400cc Dual-induct Electro-Fusion Cluster",
+        "power": "180 hp / 270 Nm",
+        "fuelConsumption": "0.1 L/100km"
+      },
+      "category": "C",
+      "isPopular": true,
+      "addOns": [
+        {
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "id": "addon-helmet",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "price": 150
+        },
+        {
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "price": 50,
+          "name": "Castrol Ultra Synth Oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي."
+        },
+        {
+          "id": "addon-holder",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "price": 30,
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "name": "Anti-Vibration Phone Mount"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "price": 185,
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "name": "Carbon Aero Smart Bag",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller."
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=400&q=80",
+          "price": 0,
+          "descAr": "",
+          "name": "",
+          "id": "addon-PRD-V2XBDP",
+          "nameAr": "",
+          "description": ""
+        }
+      ],
+      "image": "/src/assets/images/elkholy_adventure_bike_1780394016498.png",
+      "name": "ElKholy Aurora Explorer"
+    },
+    {
+      "id": "adventure-canyon-tracker",
+      "price": "$31,500",
+      "specs": {
+        "topSpeed": "175 km/h",
+        "engine": "950cc Self-charging HydrogenCore",
+        "weight": "190 kg",
+        "fuelConsumption": "0.0 L/100km (Hydrogen)",
+        "power": "110 hp / 160 Nm"
+      },
+      "category": "C",
+      "name": "ElKholy Canyon Tracker",
+      "isPopular": false,
+      "image": "/src/assets/images/elkholy_adventure_bike_1780394016498.png",
+      "addOns": [
+        {
+          "name": "ELKHOLY Cyber Helmet V1",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "id": "addon-helmet",
+          "nameAr": "خوذة الخولي الذكية V1"
+        },
+        {
+          "price": 50,
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "name": "Castrol Ultra Synth Oil",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines."
+        },
+        {
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "id": "addon-holder",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "price": 30,
+          "name": "Anti-Vibration Phone Mount",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن."
+        },
+        {
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "name": "Carbon Aero Smart Bag",
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200"
+        }
+      ],
+      "longDesc": "Perfectly balanced for extended dual-sport expeditions. Equipped with an auxiliary hydrogen-charge cells array that can regenerate energy during passive braking or descent.",
+      "priceNum": 31500,
+      "categoryName": "Adventure",
+      "tagline": "Pathfinder of the Wilds",
+      "shortDesc": "Robust multi-terrain explorer equipped with water-resistant composite side-panniers, manual suspension lifting, and GPRS link."
+    },
+    {
+      "id": "adventure-dune-wanderer",
+      "price": "$34,000",
+      "categoryName": "Adventure",
+      "priceNum": 34000,
+      "longDesc": "Engineered for extreme sands, cyber-jungles, and cracked concrete, the Dune Wanderer boasts active magnetic ride suspensions and mud-shedding carbon panels. Equipped with high-powered survival spotlights and emergency power nodes.",
+      "shortDesc": "Planetary expedition build with robust impact-absorbing armor, smart GPS grids and terrain adaptation.",
+      "tagline": "Master of Every Grid",
+      "category": "C",
+      "specs": {
+        "topSpeed": "190 km/h",
+        "engine": "1050cc Self-Generating Fusion Battery",
+        "weight": "198 kg",
+        "fuelConsumption": "0.0 L/100km (Fusion Hub)",
+        "power": "125 hp / 185 Nm"
+      },
+      "addOns": [
+        {
+          "nameAr": "خوذة الخولي الذكية V1",
+          "id": "addon-helmet",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء."
+        },
+        {
+          "id": "addon-oil",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "price": 50,
+          "name": "Castrol Ultra Synth Oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي."
+        },
+        {
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "name": "Anti-Vibration Phone Mount",
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "id": "addon-holder"
+        },
+        {
+          "name": "Carbon Aero Smart Bag",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag"
+        }
+      ],
+      "image": "/src/assets/images/elkholy_adventure_bike_1780394016498.png",
+      "isPopular": false,
+      "name": "ElKholy Dune Wanderer"
+    },
+    {
+      "id": "adventure-horizon",
+      "price": "$43,000",
+      "discount": 2000,
+      "discountType": "fixed",
+      "specs": {
+        "fuelConsumption": "2.1 L/100km",
+        "power": "155 hp / 240 Nm",
+        "topSpeed": "210 km/h",
+        "weight": "215 kg",
+        "engine": "1250cc Multi-fuel Bio-Plasma Generator"
+      },
+      "category": "C",
+      "name": "ElKholy Horizon Voyager",
+      "isPopular": true,
+      "image": "/src/assets/images/elkholy_adventure_bike_1780394016498.png",
+      "addOns": [
+        {
+          "id": "addon-helmet",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "name": "ELKHOLY Cyber Helmet V1"
+        },
+        {
+          "price": 50,
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "name": "Castrol Ultra Synth Oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines."
+        },
+        {
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "id": "addon-holder",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "name": "Anti-Vibration Phone Mount",
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200"
+        },
+        {
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "name": "Carbon Aero Smart Bag",
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "id": "addon-bag",
+          "nameAr": "حقيبة كربون ذكية انسيابية"
+        }
+      ],
+      "originalPrice": 45000,
+      "longDesc": "Our flagship adventurer features a biological plasma generator, allowing it to take bio-fuels without losing its glowing electric propulsion capacity. Includes integrated dual 6K HUD navigation displays and an extra cargo-drone bay.",
+      "priceNum": 43000,
+      "categoryName": "Adventure",
+      "offerLabel": "🔥 MEGA DEAL",
+      "tagline": "Endless Horizons Await",
+      "shortDesc": "The luxury continent-crosser containing virtual shielding, multi-fuel bio-systems, and campsite battery link."
+    },
+    {
+      "tagline": "Untamable Terrain Dominator",
+      "shortDesc": "A powerful off-road dual-sport titan constructed with heavy-duty titanium alloy and customizable cargo expansion racks.",
+      "priceNum": 38900,
+      "longDesc": "The Nomad Legend was built for the fearless. It features predictive multi-terrain traction algorithms, heavy duty reinforced crash frame bars, high capacity adventure panniers, and standard military-grade navigation GPS setups.",
+      "categoryName": "Adventure",
+      "addOns": [
+        {
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "id": "addon-helmet",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation."
+        },
+        {
+          "price": 50,
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "name": "Castrol Ultra Synth Oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines."
+        },
+        {
+          "id": "addon-holder",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "name": "Anti-Vibration Phone Mount",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن."
+        },
+        {
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "name": "Carbon Aero Smart Bag",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة."
+        }
+      ],
+      "image": "/src/assets/images/elkholy_adventure_bike_1780394016498.png",
+      "isPopular": false,
+      "name": "ElKholy Nomad Legend",
+      "category": "C",
+      "specs": {
+        "power": "135 hp / 195 Nm",
+        "fuelConsumption": "2.5 L/100km",
+        "weight": "205 kg",
+        "engine": "1150cc Liquid-Cooled Parallel Twin",
+        "topSpeed": "200 km/h"
+      },
+      "price": "$38,900",
+      "id": "adventure-nomad-legend"
+    },
+    {
+      "name": "ElKholy Ghost Cruiser",
+      "isPopular": true,
+      "addOns": [
+        {
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "id": "addon-helmet",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation."
+        },
+        {
+          "id": "addon-oil",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "price": 50,
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "name": "Castrol Ultra Synth Oil"
+        },
+        {
+          "name": "Anti-Vibration Phone Mount",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "id": "addon-holder"
+        },
+        {
+          "id": "addon-bag",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "price": 185,
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "name": "Carbon Aero Smart Bag"
+        },
+        {
+          "description": "",
+          "nameAr": "",
+          "id": "addon-PRD-V2XBDP",
+          "name": "",
+          "descAr": "",
+          "image": "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=400&q=80",
+          "price": 0
+        }
+      ],
+      "image": "/src/assets/images/elkholy_cruiser_bike_1780393998079.png",
+      "specs": {
+        "engine": "1800cc Dual-Rotor Plasma Induction core",
+        "weight": "245 kg",
+        "topSpeed": "220 km/h",
+        "power": "165 hp / 290 Nm",
+        "fuelConsumption": "0.2 L/100km (Bio-Plasma)"
+      },
+      "category": "B",
+      "offerLabel": "⚡ 10% OFF",
+      "catalogFileName": "",
+      "shortDesc": "A ultra-luxury relaxed cruiser offering hover-feel electronic suspension and deep-bass exhaust waves.",
+      "tagline": "Sovereign of the Highways",
+      "originalPrice": 48000,
+      "categoryName": "Cruiser",
+      "priceNum": 43200,
+      "longDesc": "Enjoy infinite open highways on this ultimate comfortable luxury cruiser. Outfitted with orthopedic smart-gel seats, dynamic cybernetic shock-absorbers that adapt to road imperfections in microseconds, and an custom acoustic synthesizer.",
+      "catalogFileContent": "",
+      "price": "43,200 جنيه",
+      "isCustom": true,
+      "relatedProductIds": [
+        "PRD-V2XBDP"
+      ],
+      "id": "cruiser-ghost-cruiser",
+      "serialCode": "",
+      "discount": 10,
+      "discountType": "percentage"
+    },
+    {
+      "longDesc": "The Obsidian Cruiser merges retro-futuristic chopper lines with futuristic electronic styling. Features automated parking kickstands, full integrated digital helmet link, and high-fidelity smart radar arrays for complete 360 safety.",
+      "priceNum": 39500,
+      "categoryName": "Cruiser",
+      "tagline": "Pure Luxury, Dark Soul",
+      "shortDesc": "Handcrafted ultra-low stance cruiser featuring reactive matte titanium framing and adjustable neon base glow.",
+      "specs": {
+        "topSpeed": "200 km/h",
+        "engine": "1650cc Supercharged Electric Hybrid",
+        "weight": "235 kg",
+        "fuelConsumption": "1.5 L/100km",
+        "power": "140 hp / 250 Nm"
+      },
+      "category": "B",
+      "name": "ElKholy Obsidian Cyber",
+      "isPopular": false,
+      "image": "/src/assets/images/elkholy_cruiser_bike_1780393998079.png",
+      "addOns": [
+        {
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "id": "addon-helmet",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200"
+        },
+        {
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "name": "Castrol Ultra Synth Oil",
+          "price": 50,
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200"
+        },
+        {
+          "id": "addon-holder",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "price": 30,
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "name": "Anti-Vibration Phone Mount"
+        },
+        {
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "name": "Carbon Aero Smart Bag",
+          "id": "addon-bag",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller."
+        }
+      ],
+      "id": "cruiser-obsidian",
+      "price": "$39,500"
+    },
+    {
+      "name": "ElKholy Rebel V2",
+      "isPopular": false,
+      "addOns": [
+        {
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "id": "addon-helmet",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation."
+        },
+        {
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "price": 50,
+          "name": "Castrol Ultra Synth Oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي."
+        },
+        {
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "name": "Anti-Vibration Phone Mount",
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "id": "addon-holder"
+        },
+        {
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "name": "Carbon Aero Smart Bag",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller."
+        }
+      ],
+      "image": "/src/assets/images/elkholy_cruiser_bike_1780393998079.png",
+      "specs": {
+        "fuelConsumption": "1.8 L/100km",
+        "power": "110 hp / 195 Nm",
+        "engine": "1200cc Parallel-Twin High Torque",
+        "weight": "210 kg",
+        "topSpeed": "180 km/h"
+      },
+      "category": "B",
+      "tagline": "Neon Renegade",
+      "shortDesc": "Stripped-down bobber styling paired with advanced smart diagnostics, active wheel lights, and standard ABS.",
+      "priceNum": 32000,
+      "longDesc": "Comfortable, nimble, and beautifully accented with customizable perimeter glow grids. Designed specifically for evening cruises and long relaxed road adventures.",
+      "categoryName": "Cruiser",
+      "price": "$32,000",
+      "id": "cruiser-rebel-v2"
+    },
+    {
+      "isPopular": false,
+      "addOns": [
+        {
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "price": 150,
+          "name": "ELKHOLY Cyber Helmet V1",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "id": "addon-helmet",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation."
+        },
+        {
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "price": 50,
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "name": "Castrol Ultra Synth Oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي."
+        },
+        {
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "id": "addon-holder",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "name": "Anti-Vibration Phone Mount",
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "price": 185,
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "name": "Carbon Aero Smart Bag",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller."
+        }
+      ],
+      "image": "/src/assets/images/elkholy_cruiser_bike_1780393998079.png",
+      "name": "ElKholy Royal Sovereign",
+      "specs": {
+        "fuelConsumption": "0.0 L/100km (Electric)",
+        "power": "150 hp / 265 Nm",
+        "engine": "1750cc Solid-State Magnetic Torque Hub",
+        "weight": "238 kg",
+        "topSpeed": "195 km/h"
+      },
+      "category": "B",
+      "shortDesc": "Premium heavy bobber layout accented with hand-polished nickel cladding, solid-gel comfort frame, and custom smart soundscapes.",
+      "tagline": "Imperial Cruiser Majesty",
+      "categoryName": "Cruiser",
+      "priceNum": 41500,
+      "longDesc": "Engineered as the quintessential majestic long-distance sovereign, this model provides full active pneumatic load leveling, premium ergonomic heated seating curves, and ambient perimeter LED strips linked directly with navigation alerts.",
+      "price": "$41,500",
+      "id": "cruiser-royal-sovereign"
+    },
+    {
+      "id": "cruiser-titan-beast",
+      "price": "$46,000",
+      "specs": {
+        "weight": "260 kg",
+        "engine": "1900cc Dual Solid State Hybrid Induction",
+        "topSpeed": "210 km/h",
+        "fuelConsumption": "0.5 L/100km",
+        "power": "180 hp / 320 Nm"
+      },
+      "category": "B",
+      "isPopular": true,
+      "image": "/src/assets/images/elkholy_cruiser_bike_1780393998079.png",
+      "addOns": [
+        {
+          "nameAr": "خوذة الخولي الذكية V1",
+          "id": "addon-helmet",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "name": "ELKHOLY Cyber Helmet V1"
+        },
+        {
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "id": "addon-oil",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "name": "Castrol Ultra Synth Oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "price": 50
+        },
+        {
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "name": "Anti-Vibration Phone Mount",
+          "id": "addon-holder",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock."
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "price": 185,
+          "name": "Carbon Aero Smart Bag",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller."
+        }
+      ],
+      "name": "ElKholy Titan Beast",
+      "priceNum": 46000,
+      "longDesc": "The Titan Beast combines a retro double-cradle posture with absolute hyper-electric solid state power. Offers micro-seconds adaptive pneumatic ride buffers to ensure a smooth, luxurious floating sensation.",
+      "categoryName": "Cruiser",
+      "shortDesc": "A colossal low-slung powerhouse offering heavy-duty chrome detailing, ambient dynamic exhaust notes, and dual highway mapping.",
+      "tagline": "The Ultimate Iron Giant"
+    },
+    {
+      "id": "scooter-cyberglide",
+      "isCustom": true,
+      "price": "130,000 جنيه",
+      "discount": 5000,
+      "discountType": "fixed",
+      "specs": {
+        "topSpeed": "135 km/h",
+        "engine": "400cc Hyper-Magnetic Urban Hub Motor",
+        "weight": "110 kg",
+        "fuelConsumption": "0.0 L/100km (High-density battery)",
+        "power": "55 hp / 95 Nm"
+      },
+      "category": "S",
+      "isPopular": true,
+      "addOns": [
+        {
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "id": "addon-helmet",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "price": 150
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "price": 50,
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "name": "Castrol Ultra Synth Oil",
+          "id": "addon-oil",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines."
+        },
+        {
+          "name": "Anti-Vibration Phone Mount",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "id": "addon-holder"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "price": 185,
+          "name": "Carbon Aero Smart Bag",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "id": "addon-bag",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller."
+        }
+      ],
+      "image": "/src/assets/images/elkholy_scooter_1780394036022.png",
+      "name": "ElKholy CyberGlide X",
+      "originalPrice": 135000,
+      "categoryName": "Scooter",
+      "priceNum": 130000,
+      "longDesc": "Designed to slalom through neo-city traffic jams in style. Built-in magnetic hub motor and dynamic smart-cruise controller ensure smooth riding. Charges fully in under 8 minutes with high-speed quantum chargers.",
+      "catalogFileContent": "",
+      "offerLabel": "عرض الاسكوتر 🔥",
+      "catalogFileName": "",
+      "shortDesc": "High-end smart scooter with hover-inspired design, interactive heads-up screen, and automatic city lane tracking.",
+      "tagline": "Reclaim the Urban Core"
+    },
+    {
+      "id": "scooter-fusion-lite",
+      "price": "$11,000",
+      "category": "S",
+      "specs": {
+        "topSpeed": "120 km/h",
+        "engine": "350cc Dual Rear Brushless Hubs",
+        "weight": "88 kg",
+        "fuelConsumption": "0.0 L/100km (Solid state compact)",
+        "power": "45 hp / 85 Nm"
+      },
+      "name": "ElKholy Fusion Lite",
+      "image": "/src/assets/images/elkholy_scooter_1780394036022.png",
+      "addOns": [
+        {
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "id": "addon-helmet",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation."
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "price": 50,
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "name": "Castrol Ultra Synth Oil",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines."
+        },
+        {
+          "id": "addon-holder",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "name": "Anti-Vibration Phone Mount"
+        },
+        {
+          "name": "Carbon Aero Smart Bag",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag"
+        }
+      ],
+      "isPopular": false,
+      "categoryName": "Scooter",
+      "longDesc": "The Fusion Lite offers responsive performance with dual rear brushless motors and a super compact collapsible posture. Features full interactive bluetooth application linkage for keyless digital engine ignition.",
+      "priceNum": 11000,
+      "tagline": "Ultralight Urban Fleet",
+      "shortDesc": "Featherweight high-efficiency electronic scooter perfect for quick smart commutes and dense urban corridors."
+    },
+    {
+      "price": "$9,000",
+      "id": "scooter-neon-breeze",
+      "shortDesc": "Comfortable lightweight smart scooter featuring interchangeable side trunks and adaptive underglow lighting strips.",
+      "tagline": "Agility Meets Neon Elegance",
+      "categoryName": "Scooter",
+      "priceNum": 9000,
+      "longDesc": "The Neon Breeze combines extreme agility with high-end aesthetic details. Custom-sync the wheel lights directly to your smartphone music beats. Built-in secure wireless helmet lock and advanced anti-theft biometrics.",
+      "addOns": [
+        {
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "price": 150,
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "id": "addon-helmet",
+          "nameAr": "خوذة الخولي الذكية V1"
+        },
+        {
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "price": 50,
+          "name": "Castrol Ultra Synth Oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي."
+        },
+        {
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "id": "addon-holder",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "name": "Anti-Vibration Phone Mount",
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200"
+        },
+        {
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "name": "Carbon Aero Smart Bag",
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag"
+        }
+      ],
+      "image": "/src/assets/images/elkholy_scooter_1780394036022.png",
+      "isPopular": false,
+      "name": "ElKholy Neon Breeze",
+      "category": "S",
+      "specs": {
+        "fuelConsumption": "0.0 L/100km (Solid-electrolyte battery)",
+        "power": "38 hp / 72 Nm",
+        "weight": "95 kg",
+        "engine": "300cc Brushless Direct-Drive Motor",
+        "topSpeed": "110 km/h"
+      }
+    },
+    {
+      "price": "$16,500",
+      "id": "scooter-quantum-pulse",
+      "tagline": "The City Lightning Bolt",
+      "shortDesc": "High-velocity premium commuter scooter with instant smart-drive torque, smart helmets support, and perimeter lasers.",
+      "priceNum": 16500,
+      "longDesc": "The Quantum Pulse represents the upper-tier of premium urban mobility. Featuring double-wishbone active electronic front suspension shocks and a full digital diagnostic cockpit.",
+      "categoryName": "Scooter",
+      "name": "ElKholy Quantum Pulse Jet",
+      "isPopular": true,
+      "addOns": [
+        {
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "id": "addon-helmet",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation."
+        },
+        {
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "id": "addon-oil",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "name": "Castrol Ultra Synth Oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "price": 50,
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200"
+        },
+        {
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "id": "addon-holder",
+          "name": "Anti-Vibration Phone Mount",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200"
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "price": 185,
+          "name": "Carbon Aero Smart Bag",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller."
+        }
+      ],
+      "image": "/src/assets/images/elkholy_scooter_1780394036022.png",
+      "specs": {
+        "power": "72 hp / 120 Nm",
+        "fuelConsumption": "0.0 L/100km",
+        "weight": "115 kg",
+        "engine": "650cc Quantum Induction Liquid-Cooled Hub",
+        "topSpeed": "150 km/h"
+      },
+      "category": "S"
+    },
+    {
+      "price": "$14,000",
+      "id": "scooter-solar-wave",
+      "tagline": "Ride the Sunlight",
+      "shortDesc": "Lightweight carbon carbon-fiber frame retrofitted with micro solar-recharge panels and built-in navigation.",
+      "priceNum": 14000,
+      "longDesc": "The Solar Wave features integrated high-efficiency photovoltaic panels across the front fairing, feeding a trickle-charge into the auxiliary battery. Reclaim city commutes on a completely self-sustaining energy loop.",
+      "categoryName": "Scooter",
+      "name": "ElKholy Solar Wave Smart",
+      "isPopular": false,
+      "addOns": [
+        {
+          "nameAr": "خوذة الخولي الذكية V1",
+          "id": "addon-helmet",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "name": "ELKHOLY Cyber Helmet V1"
+        },
+        {
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "id": "addon-oil",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "name": "Castrol Ultra Synth Oil",
+          "price": 50,
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200"
+        },
+        {
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "name": "Anti-Vibration Phone Mount",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "id": "addon-holder",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock."
+        },
+        {
+          "name": "Carbon Aero Smart Bag",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "id": "addon-bag",
+          "nameAr": "حقيبة كربون ذكية انسيابية"
+        }
+      ],
+      "image": "/src/assets/images/elkholy_scooter_1780394036022.png",
+      "specs": {
+        "engine": "500cc High-Output Solar-Electric Hub",
+        "weight": "105 kg",
+        "topSpeed": "140 km/h",
+        "power": "60 hp / 105 Nm",
+        "fuelConsumption": "0.0 L/100km"
+      },
+      "category": "S"
+    },
+    {
+      "id": "sport-cyberforce-ultra",
+      "price": "$29,900",
+      "category": "A",
+      "specs": {
+        "topSpeed": "280 km/h",
+        "weight": "155 kg",
+        "engine": "750cc Liquid-Cooled Electric Inducer",
+        "power": "150 hp / 190 Nm",
+        "fuelConsumption": "0.0 L/100km (Electric)"
+      },
+      "name": "ElKholy CyberForce Ultra",
+      "addOns": [
+        {
+          "name": "ELKHOLY Cyber Helmet V1",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "id": "addon-helmet"
+        },
+        {
+          "price": 50,
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "name": "Castrol Ultra Synth Oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines."
+        },
+        {
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "name": "Anti-Vibration Phone Mount",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "id": "addon-holder",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock."
+        },
+        {
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "name": "Carbon Aero Smart Bag",
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "id": "addon-bag",
+          "nameAr": "حقيبة كربون ذكية انسيابية"
+        }
+      ],
+      "image": "/src/assets/images/elkholy_sport_bike_1780393979815.png",
+      "isPopular": false,
+      "priceNum": 29900,
+      "longDesc": "The CyberForce Ultra incorporates aerospace-grade composites for structural resilience. A perfect machine for urban racers seeking track-level performance on everyday streets.",
+      "categoryName": "Sport",
+      "tagline": "Light, Agile, Unleashed",
+      "shortDesc": "Lightweight entry-level sport model containing interactive neural navigation links and rapid heat dissipation."
+    },
+    {
+      "isCustom": true,
+      "id": "sport-cybersport-v4",
+      "price": "37,500 جنيه",
+      "discount": 5000,
+      "discountType": "fixed",
+      "serialCode": "098098098",
+      "category": "A",
+      "specs": {
+        "fuelConsumption": "0.0 L/100km (Zero-emission)",
+        "power": "240 hp / 310 Nm",
+        "engine": "1200cc Solid-State Quad-Electric Hub",
+        "weight": "168 kg",
+        "topSpeed": "380 km/h"
+      },
+      "name": "ElKholy CyberSport V4",
+      "addOns": [
+        {
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "id": "addon-helmet",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200"
+        },
+        {
+          "name": "Castrol Ultra Synth Oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "price": 50,
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil"
+        },
+        {
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "id": "addon-holder",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "price": 30,
+          "name": "Anti-Vibration Phone Mount",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن."
+        },
+        {
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "id": "addon-bag",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "name": "Carbon Aero Smart Bag",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200"
+        }
+      ],
+      "image": "https://ingaz-eg.com/wp-content/uploads/2024/11/%D9%81%D9%8A%D8%AC%D9%88%D8%B1%D9%8A-vr-200-768x768.png",
+      "isPopular": true,
+      "longDesc": "Engineered for maximum racing precision, the CyberSport V4 features a smart carbon monocoque frame, predictive digital aerodynamics, and a state-of-the-art quad-electric powertrain. Designed to break limits, it delivers instant torque and hyper-stability at high velocities.",
+      "catalogFileContent": "",
+      "priceNum": 37500,
+      "categoryName": "Sport",
+      "originalPrice": 42500,
+      "tagline": "Adrenaline Redefined",
+      "shortDesc": "Aerodynamic carbon-monocoque masterpiece with high-frequency stabilizers and liquid-neon vectoring.",
+      "catalogFileName": "",
+      "offerLabel": "🔥 HOT DEAL"
+    },
+    {
+      "id": "sport-hypercharged-x",
+      "price": "$34,500",
+      "category": "A",
+      "specs": {
+        "power": "185 hp / 240 Nm",
+        "fuelConsumption": "0.0 L/100km (Electric)",
+        "topSpeed": "310 km/h",
+        "engine": "1000cc Dual-Array Supercharged Induction",
+        "weight": "162 kg"
+      },
+      "name": "ElKholy HyperCharged X",
+      "addOns": [
+        {
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "price": 150,
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "id": "addon-helmet"
+        },
+        {
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "name": "Castrol Ultra Synth Oil",
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "price": 50,
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil"
+        },
+        {
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "id": "addon-holder",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "name": "Anti-Vibration Phone Mount",
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "price": 30,
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200"
+        },
+        {
+          "name": "Carbon Aero Smart Bag",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag"
+        }
+      ],
+      "image": "/src/assets/images/elkholy_sport_bike_1780393979815.png",
+      "isPopular": false,
+      "categoryName": "Sport",
+      "longDesc": "The HyperCharged X represents the zenith of electrical velocity. Equipped with custom carbon-glass cooling canals and a solid-electrolyte power pack, this motorcycle delivers continuous high-output propulsion under any track load.",
+      "priceNum": 34500,
+      "tagline": "Futuristic Electric Thunderbolt",
+      "shortDesc": "Hypercharged induction superbike featuring active lateral stabilizers and advanced torque vectoring matrices."
+    },
+    {
+      "category": "A",
+      "specs": {
+        "topSpeed": "330 km/h",
+        "weight": "172 kg",
+        "engine": "998cc Liquid-Cooled Plasma Hybrid Engine",
+        "fuelConsumption": "1.2 L/100km",
+        "power": "195 hp / 220 Nm"
+      },
+      "image": "/src/assets/images/elkholy_sport_bike_1780393979815.png",
+      "addOns": [
+        {
+          "id": "addon-helmet",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "price": 150,
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "name": "ELKHOLY Cyber Helmet V1",
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء."
+        },
+        {
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "price": 50,
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "name": "Castrol Ultra Synth Oil",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "id": "addon-oil",
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines."
+        },
+        {
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "name": "Anti-Vibration Phone Mount",
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "price": 30,
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "id": "addon-holder",
+          "nameAr": "حامل هاتف مقاوم للاهتزاز"
+        },
+        {
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "name": "Carbon Aero Smart Bag",
+          "price": 185,
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag"
+        }
+      ],
+      "isPopular": false,
+      "name": "ElKholy Phantom Apex",
+      "categoryName": "Sport",
+      "longDesc": "The Phantom Apex is built around active bio-luminescent fiber composites that display real-time speed diagnostics. Outfitted with intelligent torque vectoring and automatic lane-assist lidar, this is the ultimate hybrid speedster.",
+      "priceNum": 36000,
+      "shortDesc": "Stealth-styled lightning runner featuring full-spectrum HUD connectivity and custom neural speed presets.",
+      "tagline": "The Dark Knight of Speed",
+      "id": "sport-phantom-apex",
+      "price": "$36,000"
+    },
+    {
+      "addOns": [
+        {
+          "id": "addon-helmet",
+          "nameAr": "خوذة الخولي الذكية V1",
+          "description": "Smart helmet with integrated HUD, telemetry sync, and noise cancellation.",
+          "image": "https://images.unsplash.com/photo-1599819811279-d5ad9cccf838?auto=format&fit=crop&q=80&w=200",
+          "price": 150,
+          "descAr": "خوذة ذكية مزودة بشاشة عرض أمامية (HUD)، ومزامنة البيانات وتصفية الضوضاء.",
+          "name": "ELKHOLY Cyber Helmet V1"
+        },
+        {
+          "description": "Extended endurance liquid fluid optimized for high-rpm engines.",
+          "id": "addon-oil",
+          "nameAr": "زيت كاسترول التخليقي الفائق",
+          "name": "Castrol Ultra Synth Oil",
+          "descAr": "سائل تخليقي لزيادة التحمل مصمم خصيصاً للمحركات ذات الدوران العالي.",
+          "image": "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=200",
+          "price": 50
+        },
+        {
+          "nameAr": "حامل هاتف مقاوم للاهتزاز",
+          "id": "addon-holder",
+          "description": "Aircraft-grade aluminum phone holder with secure multi-clamp lock.",
+          "image": "https://images.unsplash.com/photo-1584438784894-089d6a128f3e?auto=format&fit=crop&q=80&w=200",
+          "price": 30,
+          "descAr": "حامل هاتف من ألومنيوم الطائرات مع قفل حماية متعدد المحاور لواتساب آمن.",
+          "name": "Anti-Vibration Phone Mount"
+        },
+        {
+          "description": "Waterproof aerodynamic tail bag with integrated charge controller.",
+          "nameAr": "حقيبة كربون ذكية انسيابية",
+          "id": "addon-bag",
+          "name": "Carbon Aero Smart Bag",
+          "descAr": "حقيبة خلفية انسيابية مقاومة للماء مع وحدة شحن وتحكم متكاملة.",
+          "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&q=80&w=200",
+          "price": 185
+        }
+      ],
+      "image": "/src/assets/images/elkholy_sport_bike_1780393979815.png",
+      "isPopular": true,
+      "name": "ElKholy Vortex Overdrive",
+      "category": "A",
+      "specs": {
+        "fuelConsumption": "0.0 L/100km (Electric)",
+        "power": "220 hp / 285 Nm",
+        "topSpeed": "360 km/h",
+        "engine": "1100cc Dual-Magnetic Rotors Core",
+        "weight": "165 kg"
+      },
+      "tagline": "Break the Sound Barrier",
+      "shortDesc": "Precision engineered speed racer with an ionic aerodynamic shell and real-time tire pressure matrix.",
+      "priceNum": 41000,
+      "longDesc": "Formulated with ultra-high voltage dual magnetic rotors, the Vortex Overdrive is built for enthusiasts seeking sheer adrenaline. Adapts dynamically to asphalt temperatures and wet coefficient indices.",
+      "categoryName": "Sport",
+      "price": "$41,000",
+      "id": "sport-vortex-overdrive"
+    }
+  ],
+  "storeProducts": [
+    {
+      "id": "PRD-V2XBDP",
+      "name": "",
+      "nameAr": "",
+      "description": "",
+      "descriptionAr": "انلاهلاهفهابلهالغه",
+      "category": "Oils",
+      "price": 8000,
+      "originalPrice": 10000,
+      "image": "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=400&q=80",
+      "stockCount": 21,
+      "soldCount": 0,
+      "brand": "بهاهالهعلخعلعخ",
+      "isOffer": true,
+      "offerLabel": "",
+      "offerLabelAr": "",
+      "isHidden": false,
+      "galleryUrls": [],
+      "specs": "",
+      "specsAr": "عنلبعابعبا",
+      "discount": 20,
+      "discountType": "percentage"
+    },
+    {
+      "id": "PRD-GWMNWH",
+      "name": "",
+      "nameAr": "",
+      "description": "",
+      "descriptionAr": "",
+      "category": "Safety",
+      "price": 0,
+      "originalPrice": 0,
+      "discount": 0,
+      "discountType": "percentage",
+      "image": "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=400&q=80",
+      "stockCount": 10,
+      "soldCount": 0,
+      "brand": "",
+      "isOffer": false,
+      "offerLabel": "",
+      "offerLabelAr": "",
+      "isHidden": false,
+      "galleryUrls": [],
+      "specs": "",
+      "specsAr": ""
+    },
+    {
+      "id": "PRD-Q38FUF",
+      "name": "",
+      "nameAr": "",
+      "description": "",
+      "descriptionAr": "",
+      "category": "Lifestyle",
+      "price": 0,
+      "originalPrice": 0,
+      "discount": 0,
+      "discountType": "percentage",
+      "image": "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=400&q=80",
+      "stockCount": 10,
+      "soldCount": 0,
+      "brand": "",
+      "isOffer": false,
+      "offerLabel": "",
+      "offerLabelAr": "",
+      "isHidden": false,
+      "galleryUrls": [],
+      "specs": "",
+      "specsAr": ""
+    },
+    {
+      "id": "PRD-CCTOXT",
+      "name": "",
+      "nameAr": "",
+      "description": "",
+      "descriptionAr": "",
+      "category": "Parts",
+      "price": 0,
+      "originalPrice": 0,
+      "discount": 0,
+      "discountType": "percentage",
+      "image": "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=400&q=80",
+      "stockCount": 10,
+      "soldCount": 0,
+      "brand": "",
+      "isOffer": false,
+      "offerLabel": "",
+      "offerLabelAr": "",
+      "isHidden": false,
+      "galleryUrls": [],
+      "specs": "",
+      "specsAr": ""
+    },
+    {
+      "id": "PRD-6TPMZB",
+      "name": "",
+      "nameAr": "",
+      "description": "",
+      "descriptionAr": "",
+      "category": "Parts",
+      "price": 0,
+      "originalPrice": 0,
+      "discount": 0,
+      "discountType": "percentage",
+      "image": "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=400&q=80",
+      "stockCount": 10,
+      "soldCount": 0,
+      "brand": "",
+      "isOffer": false,
+      "offerLabel": "",
+      "offerLabelAr": "",
+      "isHidden": false,
+      "galleryUrls": [],
+      "specs": "",
+      "specsAr": ""
+    },
+    {
+      "id": "PRD-X1AOB3",
+      "name": "",
+      "nameAr": "",
+      "description": "",
+      "descriptionAr": "",
+      "category": "Smart",
+      "price": 0,
+      "originalPrice": 0,
+      "discount": 0,
+      "discountType": "percentage",
+      "image": "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=400&q=80",
+      "stockCount": 10,
+      "soldCount": 0,
+      "brand": "",
+      "isOffer": false,
+      "offerLabel": "",
+      "offerLabelAr": "",
+      "isHidden": false,
+      "galleryUrls": [],
+      "specs": "",
+      "specsAr": ""
+    }
+  ],
+  "customText": {
+    "arTitle": "الخولي",
+    "enTitle": "ELKHOLY",
+    "arSlogan": "سابق مع المستقبل",
+    "enSlogan": "RIDE THE FUTURE"
+  },
+  "homepageConfig": {
+    "invoiceWhatsappNumber": "+201064654324",
+    "theme": {
+      "backgroundColor": "#0B0F1A",
+      "secondaryColor": "#A855F7",
+      "primaryColor": "#6366F1",
+      "iconShape": "circle",
+      "spacingMultiplier": 1.5,
+      "buttonRadius": "rounded-xl"
+    },
+    "fontHeadings": "Space Grotesk",
+    "font": "Space Grotesk",
+    "mainContent": {
+      "featuredTitleAr": "الموتوسيكلات الخارقة المميزة",
+      "iconSize": "md",
+      "iconColor": "#22D3EE",
+      "showOffers": true,
+      "layoutStyle": "grid",
+      "categoriesTitle": "Showroom Categories",
+      "categoriesTitleAr": "أقسام المعرض الرقمية",
+      "offersTitle": "Active Trade Options & Discounts",
+      "customCategoryIcons": {
+        "S": "",
+        "C": "",
+        "A": "",
+        "B": ""
+      },
+      "featuredTitle": "Holographic Super Machines",
+      "showCategories": false,
+      "offersTitleAr": "العروض الساخنة والخصومات المتفردة",
+      "showFeatured": true
+    },
+    "fontSubheadings": "Cairo",
+    "header": {
+      "accent": "MOTORS",
+      "titleAr": "الخولي",
+      "animationsEnabled": true,
+      "logoText": "ELKHOLY",
+      "logoPosition": "left",
+      "logoUrl": "",
+      "subtitle": "RIDE THE FUTURE",
+      "logoSize": "medium",
+      "buttonExploreTextAr": "استكشف المركبات ↓",
+      "buttonExploreText": "EXPLORE VEHICLES ↓",
+      "logoTextAr": "الخولي",
+      "subtitleAr": "سابق مع المستقبل",
+      "logoEffect": "glow",
+      "customHtmlEnabled": false,
+      "customHtml": "<div class=\"p-4 bg-white/5 border border-white/10 rounded-xl my-4 text-center text-xs font-mono\">\n  <p class=\"text-brand-accent font-bold\">✨ EXTREME RACING EVENT CODES ACTIVE ✨</p>\n  <p class=\"text-gray-400 mt-1\">Special track testing starts Friday 8:00 PM at Cairo Ring Road virtual gateway. All operators welcome.</p>\n</div>",
+      "title": "ELKHOLY",
+      "buttonBookTextAr": "حجز سريع 🏆",
+      "buttonBookText": "QUICK BOOK 🏆",
+      "accentAr": "موتورز",
+      "backgroundImage": "/src/assets/images/elkholy_hero_banner_1780393961041.png"
+    },
+    "footer": {
+      "content": "Step inside the virtual grid. ElKholy Motors introduces extreme-output solid-state performance bikes, plasma touring adventurers, and high-fidelity smart urban scooters designed in 2026. Explore our catalog, review blueprints, and book a secure ride directly.",
+      "email": "hosny",
+      "socialLinks": {
+        "whatsapp": "https://wa.me/201064654324",
+        "facebook": "https://facebook.com/elkholy.motors",
+        "youtube": "https://youtube.com/elkholy.motors",
+        "instagram": "https://instagram.com/elkholy.motors"
+      },
+      "contentAr": "انضم إلى عالم الغد. تقدم الخولي موتورز أقوى الموتوسيكلات والاسكوترات فائقة الأداء للمستقبل. استكشف كتالوجاتنا، واقرأ المواصفات واحجز رحلتك مباشرة.",
+      "collapsible": true,
+      "visible": true,
+      "quickLinks": [
+        {
+          "url": "#home",
+          "labelAr": "الرئيسية",
+          "label": "Home"
+        },
+        {
+          "url": "#gallery",
+          "labelAr": "المعرض الرقمي",
+          "label": "Showroom"
+        },
+        {
+          "labelAr": "الأقسام",
+          "url": "#categories",
+          "label": "Categories"
+        }
+      ],
+      "addressAr": "هعشاءلبشايلبا",
+      "phone": "0102132343"
+    },
+    "fontBody": "Inter"
+  },
+  "bookings": [
+    {
+      "id": "book-1780608193587",
+      "motorcycleId": "cruiser-rebel-v2",
+      "motorcycleName": "ElKholy Rebel V2",
+      "category": "A",
+      "price": "32,050 EGP",
+      "name": "hosny agur",
+      "phone": "01066543432",
+      "email": "Guest (Cloud)",
+      "date": "2026-06-06",
+      "timestamp": "2026-06-06T11:21:03.084Z",
+      "status": "sold"
+    },
+    {
+      "id": "book-1780608360696",
+      "motorcycleId": "cruiser-rebel-v2",
+      "motorcycleName": "ElKholy Rebel V2",
+      "category": "A",
+      "price": "32,050 EGP",
+      "name": "hosny agur",
+      "phone": "01118024011",
+      "email": "Guest (Cloud)",
+      "date": "2026-06-06",
+      "timestamp": "2026-06-06T11:21:03.084Z",
+      "status": "sold"
+    },
+    {
+      "id": "book-1780608670824",
+      "motorcycleId": "sport-cybersport-v4",
+      "motorcycleName": "ElKholy CyberSport V4",
+      "category": "A",
+      "price": "37,500 EGP",
+      "name": "hosny agur",
+      "phone": "01118024011",
+      "email": "Guest (Cloud)",
+      "date": "2026-06-06",
+      "timestamp": "2026-06-06T11:21:03.084Z",
+      "status": "sold"
+    },
+    {
+      "id": "book-1780737333305",
+      "motorcycleId": "sport-cyberforce-ultra",
+      "motorcycleName": "ElKholy CyberForce Ultra",
+      "category": "A",
+      "price": "29,900 EGP",
+      "name": "hosny agur",
+      "phone": "01118024011",
+      "email": "Guest (Cloud)",
+      "date": "2026-06-06",
+      "timestamp": "2026-06-06T11:21:03.084Z",
+      "status": "sold"
+    },
+    {
+      "id": "book-1780737445646",
+      "motorcycleId": "sport-cybersport-v4",
+      "motorcycleName": "ElKholy CyberSport V4",
+      "category": "A",
+      "price": "37,915 EGP",
+      "name": "hosny agur",
+      "phone": "01118024011",
+      "email": "Guest (Cloud)",
+      "date": "2026-06-06",
+      "timestamp": "2026-06-06T11:21:03.084Z",
+      "status": "sold"
+    },
+    {
+      "id": "book-1780606571418",
+      "motorcycleId": "sport-hypercharged-x",
+      "motorcycleName": "ElKholy HyperCharged X",
+      "category": "A",
+      "price": "34,550 EGP",
+      "name": "hosny ahmed",
+      "phone": "01066543432",
+      "email": "Guest (Cloud)",
+      "date": "2026-06-06",
+      "timestamp": "2026-06-06T11:21:03.083Z",
+      "status": "sold"
+    },
+    {
+      "id": "book-1780606644972",
+      "motorcycleId": "cruiser-rebel-v2",
+      "motorcycleName": "ElKholy Rebel V2",
+      "category": "A",
+      "price": "32,050 EGP",
+      "name": "kjj hghhjjh",
+      "phone": "76u887",
+      "email": "Guest (Cloud)",
+      "date": "2026-06-06",
+      "timestamp": "2026-06-06T11:21:03.083Z",
+      "status": "sold"
+    },
+    {
+      "id": "STORE-ORDER-1780739626562",
+      "motorcycleId": "PRD-V2XBDP",
+      "motorcycleName": " (x1)",
+      "category": "A",
+      "price": "8,000 EGP",
+      "name": "طلب متجر (واتساب)",
+      "phone": "+201064654324",
+      "email": "customer@elkholy.com",
+      "date": "2026-06-06",
+      "timestamp": "2026-06-06T09:53:46.562Z",
+      "status": "sold"
+    },
+    {
+      "id": "STORE-ORDER-1780737037425",
+      "motorcycleId": "PRD-GWMNWH",
+      "motorcycleName": " (x6)",
+      "category": "A",
+      "price": "0 EGP",
+      "name": "طلب متجر (واتساب)",
+      "phone": "+201064654324",
+      "email": "customer@elkholy.com",
+      "date": "2026-06-06",
+      "timestamp": "2026-06-06T09:10:37.425Z",
+      "status": "sold"
+    },
+    {
+      "id": "STORE-ORDER-1780613958432",
+      "motorcycleId": "PRD-GWMNWH",
+      "motorcycleName": " (x1)",
+      "category": "A",
+      "price": "0 EGP",
+      "name": "طلب متجر (واتساب)",
+      "phone": "+201064654324",
+      "email": "customer@elkholy.com",
+      "date": "2026-06-04",
+      "timestamp": "2026-06-04T22:59:18.432Z",
+      "status": "sold"
+    }
+  ],
+  "users": [
+    {
+      "role": "Admin",
+      "password": "Hhrm0101995ELelkholy",
+      "username": "HOSNY1995"
+    },
+    {
+      "role": "Manager",
+      "password": "nnn",
+      "username": "nnn"
+    },
+    {
+      "role": "Staff",
+      "username": "sss",
+      "password": "sss"
+    }
+  ]
+}
