@@ -1516,7 +1516,8 @@ APP_URL="MY_APP_URL"`
         'src/components/PdfModal.tsx',
         'src/components/StoreAdminPanel.tsx',
         'src/components/StoreProductCard.tsx',
-        'src/components/StoreView.tsx'
+        'src/components/StoreView.tsx',
+        'firebase-applet-config.json'
       ];
 
       const binaryImages = [
