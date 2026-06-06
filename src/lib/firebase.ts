@@ -2,25 +2,49 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-import { initializeApp } from "/node_modules/.vite/deps/firebase_app.js?v=5513e304";
-import { getAuth, GoogleAuthProvider } from "/node_modules/.vite/deps/firebase_auth.js?v=85c07116";
-import { getFirestore, doc, getDocFromServer } from "/node_modules/.vite/deps/firebase_firestore.js?v=09e70c7a";
-import firebaseConfig from "/firebase-applet-config.json?import";
+
+import { initializeApp } from 'firebase/app';
+import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import { getFirestore, doc, getDocFromServer } from 'firebase/firestore';
+import firebaseConfig from '../../firebase-applet-config.json';
+
+// Initialize Firebase services
 const app = initializeApp(firebaseConfig);
+
+// CRITICAL: The app will break without the firestoreDatabaseId passed as the second argument
 export const db = getFirestore(app, firebaseConfig.firestoreDatabaseId);
 export const auth = getAuth(app);
 export const googleAuthProvider = new GoogleAuthProvider();
-export var OperationType = /* @__PURE__ */ ((OperationType2) => {
-  OperationType2["CREATE"] = "create";
-  OperationType2["UPDATE"] = "update";
-  OperationType2["DELETE"] = "delete";
-  OperationType2["LIST"] = "list";
-  OperationType2["GET"] = "get";
-  OperationType2["WRITE"] = "write";
-  return OperationType2;
-})(OperationType || {});
-export function handleFirestoreError(error, operationType, path) {
-  const errInfo = {
+
+// Standard Error Handler Structure as mandated by the Firebase Integration Skill Guidelines
+export enum OperationType {
+  CREATE = 'create',
+  UPDATE = 'update',
+  DELETE = 'delete',
+  LIST = 'list',
+  GET = 'get',
+  WRITE = 'write',
+}
+
+export interface FirestoreErrorInfo {
+  error: string;
+  operationType: OperationType;
+  path: string | null;
+  authInfo: {
+    userId?: string | null;
+    email?: string | null;
+    emailVerified?: boolean | null;
+    isAnonymous?: boolean | null;
+    tenantId?: string | null;
+    providerInfo?: {
+      providerId?: string | null;
+      email?: string | null;
+    }[];
+  };
+}
+
+export function handleFirestoreError(error: unknown, operationType: OperationType, path: string | null): never {
+  const errInfo: FirestoreErrorInfo = {
     error: error instanceof Error ? error.message : String(error),
     authInfo: {
       userId: auth.currentUser?.uid,
@@ -28,26 +52,30 @@ export function handleFirestoreError(error, operationType, path) {
       emailVerified: auth.currentUser?.emailVerified,
       isAnonymous: auth.currentUser?.isAnonymous,
       tenantId: auth.currentUser?.tenantId,
-      providerInfo: auth.currentUser?.providerData?.map((provider) => ({
+      providerInfo: auth.currentUser?.providerData?.map(provider => ({
         providerId: provider.providerId,
-        email: provider.email
+        email: provider.email,
       })) || []
     },
     operationType,
     path
   };
-  console.error("Firestore Error Detailed Payload:", JSON.stringify(errInfo));
+  
+  console.error('Firestore Error Detailed Payload:', JSON.stringify(errInfo));
   throw new Error(JSON.stringify(errInfo));
 }
+
+// CRITICAL CONSTRAINT: Test the connection to Firebase on boot
 export async function testConnection() {
   try {
-    await getDocFromServer(doc(db, "system_meta", "ping"));
+    // Attempt to parse/get a test reference to verify connection state
+    await getDocFromServer(doc(db, 'system_meta', 'ping'));
   } catch (error) {
-    if (error instanceof Error && error.message.includes("the client is offline")) {
+    if (error instanceof Error && error.message.includes('the client is offline')) {
       console.error("Please check your Firebase configuration or dynamic network routes.");
     }
   }
 }
-testConnection();
 
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZpcmViYXNlLnRzIl0sInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogQGxpY2Vuc2VcbiAqIFNQRFgtTGljZW5zZS1JZGVudGlmaWVyOiBBcGFjaGUtMi4wXG4gKi9cblxuaW1wb3J0IHsgaW5pdGlhbGl6ZUFwcCB9IGZyb20gJ2ZpcmViYXNlL2FwcCc7XG5pbXBvcnQgeyBnZXRBdXRoLCBHb29nbGVBdXRoUHJvdmlkZXIsIHNpZ25JbldpdGhQb3B1cCB9IGZyb20gJ2ZpcmViYXNlL2F1dGgnO1xuaW1wb3J0IHsgZ2V0RmlyZXN0b3JlLCBkb2MsIGdldERvY0Zyb21TZXJ2ZXIgfSBmcm9tICdmaXJlYmFzZS9maXJlc3RvcmUnO1xuaW1wb3J0IGZpcmViYXNlQ29uZmlnIGZyb20gJy4uLy4uL2ZpcmViYXNlLWFwcGxldC1jb25maWcuanNvbic7XG5cbi8vIEluaXRpYWxpemUgRmlyZWJhc2Ugc2VydmljZXNcbmNvbnN0IGFwcCA9IGluaXRpYWxpemVBcHAoZmlyZWJhc2VDb25maWcpO1xuXG4vLyBDUklUSUNBTDogVGhlIGFwcCB3aWxsIGJyZWFrIHdpdGhvdXQgdGhlIGZpcmVzdG9yZURhdGFiYXNlSWQgcGFzc2VkIGFzIHRoZSBzZWNvbmQgYXJndW1lbnRcbmV4cG9ydCBjb25zdCBkYiA9IGdldEZpcmVzdG9yZShhcHAsIGZpcmViYXNlQ29uZmlnLmZpcmVzdG9yZURhdGFiYXNlSWQpO1xuZXhwb3J0IGNvbnN0IGF1dGggPSBnZXRBdXRoKGFwcCk7XG5leHBvcnQgY29uc3QgZ29vZ2xlQXV0aFByb3ZpZGVyID0gbmV3IEdvb2dsZUF1dGhQcm92aWRlcigpO1xuXG4vLyBTdGFuZGFyZCBFcnJvciBIYW5kbGVyIFN0cnVjdHVyZSBhcyBtYW5kYXRlZCBieSB0aGUgRmlyZWJhc2UgSW50ZWdyYXRpb24gU2tpbGwgR3VpZGVsaW5lc1xuZXhwb3J0IGVudW0gT3BlcmF0aW9uVHlwZSB7XG4gIENSRUFURSA9ICdjcmVhdGUnLFxuICBVUERBVEUgPSAndXBkYXRlJyxcbiAgREVMRVRFID0gJ2RlbGV0ZScsXG4gIExJU1QgPSAnbGlzdCcsXG4gIEdFVCA9ICdnZXQnLFxuICBXUklURSA9ICd3cml0ZScsXG59XG5cbmV4cG9ydCBpbnRlcmZhY2UgRmlyZXN0b3JlRXJyb3JJbmZvIHtcbiAgZXJyb3I6IHN0cmluZztcbiAgb3BlcmF0aW9uVHlwZTogT3BlcmF0aW9uVHlwZTtcbiAgcGF0aDogc3RyaW5nIHwgbnVsbDtcbiAgYXV0aEluZm86IHtcbiAgICB1c2VySWQ/OiBzdHJpbmcgfCBudWxsO1xuICAgIGVtYWlsPzogc3RyaW5nIHwgbnVsbDtcbiAgICBlbWFpbFZlcmlmaWVkPzogYm9vbGVhbiB8IG51bGw7XG4gICAgaXNBbm9ueW1vdXM/OiBib29sZWFuIHwgbnVsbDtcbiAgICB0ZW5hbnRJZD86IHN0cmluZyB8IG51bGw7XG4gICAgcHJvdmlkZXJJbmZvPzoge1xuICAgICAgcHJvdmlkZXJJZD86IHN0cmluZyB8IG51bGw7XG4gICAgICBlbWFpbD86IHN0cmluZyB8IG51bGw7XG4gICAgfVtdO1xuICB9O1xufVxuXG5leHBvcnQgZnVuY3Rpb24gaGFuZGxlRmlyZXN0b3JlRXJyb3IoZXJyb3I6IHVua25vd24sIG9wZXJhdGlvblR5cGU6IE9wZXJhdGlvblR5cGUsIHBhdGg6IHN0cmluZyB8IG51bGwpOiBuZXZlciB7XG4gIGNvbnN0IGVyckluZm86IEZpcmVzdG9yZUVycm9ySW5mbyA9IHtcbiAgICBlcnJvcjogZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiBTdHJpbmcoZXJyb3IpLFxuICAgIGF1dGhJbmZvOiB7XG4gICAgICB1c2VySWQ6IGF1dGguY3VycmVudFVzZXI/LnVpZCxcbiAgICAgIGVtYWlsOiBhdXRoLmN1cnJlbnRVc2VyPy5lbWFpbCxcbiAgICAgIGVtYWlsVmVyaWZpZWQ6IGF1dGguY3VycmVudFVzZXI/LmVtYWlsVmVyaWZpZWQsXG4gICAgICBpc0Fub255bW91czogYXV0aC5jdXJyZW50VXNlcj8uaXNBbm9ueW1vdXMsXG4gICAgICB0ZW5hbnRJZDogYXV0aC5jdXJyZW50VXNlcj8udGVuYW50SWQsXG4gICAgICBwcm92aWRlckluZm86IGF1dGguY3VycmVudFVzZXI/LnByb3ZpZGVyRGF0YT8ubWFwKHByb3ZpZGVyID0+ICh7XG4gICAgICAgIHByb3ZpZGVySWQ6IHByb3ZpZGVyLnByb3ZpZGVySWQsXG4gICAgICAgIGVtYWlsOiBwcm92aWRlci5lbWFpbCxcbiAgICAgIH0pKSB8fCBbXVxuICAgIH0sXG4gICAgb3BlcmF0aW9uVHlwZSxcbiAgICBwYXRoXG4gIH07XG4gIFxuICBjb25zb2xlLmVycm9yKCdGaXJlc3RvcmUgRXJyb3IgRGV0YWlsZWQgUGF5bG9hZDonLCBKU09OLnN0cmluZ2lmeShlcnJJbmZvKSk7XG4gIHRocm93IG5ldyBFcnJvcihKU09OLnN0cmluZ2lmeShlcnJJbmZvKSk7XG59XG5cbi8vIENSSVRJQ0FMIENPTlNUUkFJTlQ6IFRlc3QgdGhlIGNvbm5lY3Rpb24gdG8gRmlyZWJhc2Ugb24gYm9vdFxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHRlc3RDb25uZWN0aW9uKCkge1xuICB0cnkge1xuICAgIC8vIEF0dGVtcHQgdG8gcGFyc2UvZ2V0IGEgdGVzdCByZWZlcmVuY2UgdG8gdmVyaWZ5IGNvbm5lY3Rpb24gc3RhdGVcbiAgICBhd2FpdCBnZXREb2NGcm9tU2VydmVyKGRvYyhkYiwgJ3N5c3RlbV9tZXRhJywgJ3BpbmcnKSk7XG4gIH0gY2F0Y2ggKGVycm9yKSB7XG4gICAgaWYgKGVycm9yIGluc3RhbmNlb2YgRXJyb3IgJiYgZXJyb3IubWVzc2FnZS5pbmNsdWRlcygndGhlIGNsaWVudCBpcyBvZmZsaW5lJykpIHtcbiAgICAgIGNvbnNvbGUuZXJyb3IoXCJQbGVhc2UgY2hlY2sgeW91ciBGaXJlYmFzZSBjb25maWd1cmF0aW9uIG9yIGR5bmFtaWMgbmV0d29yayByb3V0ZXMuXCIpO1xuICAgIH1cbiAgfVxufVxuXG4vLyBUcmlnZ2VyIGNvbm5lY3Rpb24gdGVzdCBsYXppbHlcbnRlc3RDb25uZWN0aW9uKCk7XG4iXSwibWFwcGluZ3MiOiJBQUFBO0FBQUE7QUFBQTtBQUFBO0FBS0EsU0FBUyxxQkFBcUI7QUFDOUIsU0FBUyxTQUFTLDBCQUEyQztBQUM3RCxTQUFTLGNBQWMsS0FBSyx3QkFBd0I7QUFDcEQsT0FBTyxvQkFBb0I7QUFHM0IsTUFBTSxNQUFNLGNBQWMsY0FBYztBQUdqQyxhQUFNLEtBQUssYUFBYSxLQUFLLGVBQWUsbUJBQW1CO0FBQy9ELGFBQU0sT0FBTyxRQUFRLEdBQUc7QUFDeEIsYUFBTSxxQkFBcUIsSUFBSSxtQkFBbUI7QUFHbEQsV0FBSyxnQkFBTCxrQkFBS0EsbUJBQUw7QUFDTCxFQUFBQSxlQUFBLFlBQVM7QUFDVCxFQUFBQSxlQUFBLFlBQVM7QUFDVCxFQUFBQSxlQUFBLFlBQVM7QUFDVCxFQUFBQSxlQUFBLFVBQU87QUFDUCxFQUFBQSxlQUFBLFNBQU07QUFDTixFQUFBQSxlQUFBLFdBQVE7QUFORSxTQUFBQTtBQUFBLEdBQUE7QUEwQkwsZ0JBQVMscUJBQXFCLE9BQWdCLGVBQThCLE1BQTRCO0FBQzdHLFFBQU0sVUFBOEI7QUFBQSxJQUNsQyxPQUFPLGlCQUFpQixRQUFRLE1BQU0sVUFBVSxPQUFPLEtBQUs7QUFBQSxJQUM1RCxVQUFVO0FBQUEsTUFDUixRQUFRLEtBQUssYUFBYTtBQUFBLE1BQzFCLE9BQU8sS0FBSyxhQUFhO0FBQUEsTUFDekIsZUFBZSxLQUFLLGFBQWE7QUFBQSxNQUNqQyxhQUFhLEtBQUssYUFBYTtBQUFBLE1BQy9CLFVBQVUsS0FBSyxhQUFhO0FBQUEsTUFDNUIsY0FBYyxLQUFLLGFBQWEsY0FBYyxJQUFJLGVBQWE7QUFBQSxRQUM3RCxZQUFZLFNBQVM7QUFBQSxRQUNyQixPQUFPLFNBQVM7QUFBQSxNQUNsQixFQUFFLEtBQUssQ0FBQztBQUFBLElBQ1Y7QUFBQSxJQUNBO0FBQUEsSUFDQTtBQUFBLEVBQ0Y7QUFFQSxVQUFRLE1BQU0scUNBQXFDLEtBQUssVUFBVSxPQUFPLENBQUM7QUFDMUUsUUFBTSxJQUFJLE1BQU0sS0FBSyxVQUFVLE9BQU8sQ0FBQztBQUN6QztBQUdBLHNCQUFzQixpQkFBaUI7QUFDckMsTUFBSTtBQUVGLFVBQU0saUJBQWlCLElBQUksSUFBSSxlQUFlLE1BQU0sQ0FBQztBQUFBLEVBQ3ZELFNBQVMsT0FBTztBQUNkLFFBQUksaUJBQWlCLFNBQVMsTUFBTSxRQUFRLFNBQVMsdUJBQXVCLEdBQUc7QUFDN0UsY0FBUSxNQUFNLHFFQUFxRTtBQUFBLElBQ3JGO0FBQUEsRUFDRjtBQUNGO0FBR0EsZUFBZTsiLCJuYW1lcyI6WyJPcGVyYXRpb25UeXBlIl19
+// Trigger connection test lazily
+testConnection();

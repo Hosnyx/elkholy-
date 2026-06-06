@@ -3,4 +3,193 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInR5cGVzLnRzIl0sInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogQGxpY2Vuc2VcbiAqIFNQRFgtTGljZW5zZS1JZGVudGlmaWVyOiBBcGFjaGUtMi4wXG4gKi9cblxuZXhwb3J0IHR5cGUgQ2F0ZWdvcnlTbHVnID0gJ0EnIHwgJ0InIHwgJ0MnIHwgJ1MnO1xuXG5leHBvcnQgaW50ZXJmYWNlIE1vdG9yY3ljbGVTcGVjcyB7XG4gIGVuZ2luZTogc3RyaW5nO1xuICB0b3BTcGVlZDogc3RyaW5nO1xuICBmdWVsQ29uc3VtcHRpb246IHN0cmluZztcbiAgcG93ZXI6IHN0cmluZztcbiAgd2VpZ2h0OiBzdHJpbmc7XG59XG5cbmV4cG9ydCBpbnRlcmZhY2UgQWRkT24ge1xuICBpZDogc3RyaW5nO1xuICBuYW1lOiBzdHJpbmc7XG4gIG5hbWVBcj86IHN0cmluZztcbiAgaW1hZ2U6IHN0cmluZztcbiAgZGVzY3JpcHRpb246IHN0cmluZztcbiAgZGVzY0FyPzogc3RyaW5nO1xuICBwcmljZTogbnVtYmVyO1xufVxuXG5leHBvcnQgaW50ZXJmYWNlIE1vdG9yY3ljbGUge1xuICBpZDogc3RyaW5nO1xuICBuYW1lOiBzdHJpbmc7XG4gIGNhdGVnb3J5OiBDYXRlZ29yeVNsdWc7XG4gIGNhdGVnb3J5TmFtZTogc3RyaW5nO1xuICBwcmljZTogc3RyaW5nO1xuICBwcmljZU51bTogbnVtYmVyO1xuICBpbWFnZTogc3RyaW5nO1xuICBzaG9ydERlc2M6IHN0cmluZztcbiAgbG9uZ0Rlc2M6IHN0cmluZztcbiAgc3BlY3M6IE1vdG9yY3ljbGVTcGVjcztcbiAgaXNQb3B1bGFyOiBib29sZWFuO1xuICB0YWdsaW5lOiBzdHJpbmc7XG4gIC8vIE5ldyBmZWF0dXJlc1xuICBjYXRhbG9nRmlsZU5hbWU/OiBzdHJpbmc7XG4gIGNhdGFsb2dGaWxlQ29udGVudD86IHN0cmluZzsgLy8gYmFzZTY0IHN0cmluZyBvciBmaWxlIFVSTFxuICBvcmlnaW5hbFByaWNlPzogbnVtYmVyO1xuICBkaXNjb3VudD86IG51bWJlcjsgLy8gcGVyY2VudGFnZSBvciBmaXhlZCB2YWx1ZVxuICBkaXNjb3VudFR5cGU/OiAncGVyY2VudGFnZScgfCAnZml4ZWQnO1xuICBvZmZlckxhYmVsPzogc3RyaW5nO1xuICBhZGRPbnM/OiBBZGRPbltdO1xuICByZWxhdGVkUHJvZHVjdElkcz86IHN0cmluZ1tdO1xuICBzZXJpYWxDb2RlPzogc3RyaW5nO1xufVxuXG5leHBvcnQgaW50ZXJmYWNlIEJvb2tpbmdEYXRhIHtcbiAgbW90b3JjeWNsZUlkOiBzdHJpbmc7XG4gIG1vdG9yY3ljbGVOYW1lOiBzdHJpbmc7XG4gIGNhdGVnb3J5OiBDYXRlZ29yeVNsdWc7XG4gIHByaWNlOiBzdHJpbmc7XG4gIG5hbWU6IHN0cmluZztcbiAgcGhvbmU6IHN0cmluZztcbiAgZW1haWw6IHN0cmluZztcbiAgZGF0ZTogc3RyaW5nO1xufVxuXG5leHBvcnQgaW50ZXJmYWNlIEZpbHRlclN0YXRlIHtcbiAgc2VhcmNoUXVlcnk6IHN0cmluZztcbiAgY2F0ZWdvcnk6IENhdGVnb3J5U2x1ZyB8ICdBTEwnO1xuICBwcmljZVJhbmdlOiBudW1iZXI7IC8vIE1heCBwcmljZSBmaWx0ZXJcbiAgc29ydEJ5OiAncHJpY2UtYXNjJyB8ICdwcmljZS1kZXNjJyB8ICdzcGVlZC1kZXNjJyB8ICdkZWZhdWx0JztcbiAgb25seVBvcHVsYXI6IGJvb2xlYW47XG59XG5cbmV4cG9ydCB0eXBlIFVzZXJSb2xlID0gJ0FkbWluJyB8ICdNYW5hZ2VyJyB8ICdTdGFmZic7XG5cbmV4cG9ydCB0eXBlIFN0b3JlQ2F0ZWdvcnkgPSAnT2lscycgfCAnU2FmZXR5JyB8ICdTbWFydCcgfCAnUGFydHMnIHwgJ0xpZmVzdHlsZSc7XG5cbmV4cG9ydCBpbnRlcmZhY2UgU3RvcmVQcm9kdWN0IHtcbiAgaWQ6IHN0cmluZzsgLy8gVGhlIGdlbmVyYXRlZCBQcm9kdWN0IENvZGVcbiAgbmFtZTogc3RyaW5nO1xuICBuYW1lQXI6IHN0cmluZztcbiAgY2F0ZWdvcnk6IFN0b3JlQ2F0ZWdvcnk7XG4gIGJyYW5kOiBzdHJpbmc7XG4gIHByaWNlOiBudW1iZXI7XG4gIG9yaWdpbmFsUHJpY2U/OiBudW1iZXI7XG4gIGRpc2NvdW50UGVyY2VudGFnZT86IG51bWJlcjtcbiAgb2ZmZXJMYWJlbD86IHN0cmluZztcbiAgb2ZmZXJMYWJlbEFyPzogc3RyaW5nO1xuICBpbWFnZTogc3RyaW5nO1xuICBnYWxsZXJ5VXJsczogc3RyaW5nW107XG4gIGRlc2NyaXB0aW9uOiBzdHJpbmc7XG4gIGRlc2NyaXB0aW9uQXI6IHN0cmluZztcbiAgc3BlY3M6IHN0cmluZzsgLy8gT3IgbWFwcGVkIGtleS12YWx1ZXNcbiAgc3BlY3NBcjogc3RyaW5nO1xuICBzdG9ja0NvdW50OiBudW1iZXI7XG4gIHNvbGRDb3VudDogbnVtYmVyO1xuICBpc0hpZGRlbjogYm9vbGVhbjtcbiAgaXNPZmZlcjogYm9vbGVhbjtcbiAgZGlzY291bnQ/OiBudW1iZXI7XG4gIGRpc2NvdW50VHlwZT86ICdwZXJjZW50YWdlJyB8ICdmaXhlZCc7XG59XG5cbmV4cG9ydCBpbnRlcmZhY2UgQ2FydEl0ZW0ge1xuICBpZDogc3RyaW5nO1xuICBwcm9kdWN0OiBTdG9yZVByb2R1Y3QgfCBNb3RvcmN5Y2xlIHwgQWRkT247XG4gIHR5cGU6ICdwcm9kdWN0JyB8ICdtb3RvcmN5Y2xlJyB8ICdhZGRvbic7XG4gIHF1YW50aXR5OiBudW1iZXI7XG59XG5cbmV4cG9ydCBpbnRlcmZhY2UgVXNlckFjY291bnQge1xuICB1c2VybmFtZTogc3RyaW5nO1xuICBwYXNzd29yZD86IHN0cmluZztcbiAgcm9sZTogVXNlclJvbGU7XG59XG5cbmV4cG9ydCBpbnRlcmZhY2UgSG9tZXBhZ2VDb25maWcge1xuICBmb250OiBzdHJpbmc7XG4gIGZvbnRIZWFkaW5ncz86IHN0cmluZztcbiAgZm9udFN1YmhlYWRpbmdzPzogc3RyaW5nO1xuICBmb250Qm9keT86IHN0cmluZztcbiAgaW52b2ljZVdoYXRzYXBwTnVtYmVyPzogc3RyaW5nOyAvLyBOZXcgV2hhdHNBcHAgbnVtYmVyIGZvciBpbnZvaWNlc1xuICB0aGVtZToge1xuICAgIHByaW1hcnlDb2xvcjogc3RyaW5nO1xuICAgIHNlY29uZGFyeUNvbG9yOiBzdHJpbmc7XG4gICAgYmFja2dyb3VuZENvbG9yOiBzdHJpbmc7XG4gICAgYnV0dG9uUmFkaXVzOiBzdHJpbmc7XG4gICAgaWNvblNoYXBlOiAnY2lyY2xlJyB8ICdzcXVhcmUnIHwgJ3NxdWlyY2xlJztcbiAgICBzcGFjaW5nTXVsdGlwbGllcjogbnVtYmVyOyAvLyAwLjg6IENvbXBhY3QsIDEuMDogTm9ybWFsLCAxLjI6IEV4cGFuZGVkXG4gIH07XG4gIGhlYWRlcjoge1xuICAgIGJhY2tncm91bmRJbWFnZTogc3RyaW5nO1xuICAgIGxvZ29Vcmw6IHN0cmluZztcbiAgICBsb2dvVGV4dDogc3RyaW5nO1xuICAgIGxvZ29UZXh0QXI6IHN0cmluZztcbiAgICBsb2dvU2l6ZT86ICdzbWFsbCcgfCAnbWVkaXVtJyB8ICdsYXJnZSc7XG4gICAgbG9nb1Bvc2l0aW9uPzogJ2xlZnQnIHwgJ2NlbnRlcic7XG4gICAgbG9nb0VmZmVjdD86ICdub25lJyB8ICdnbG93JyB8ICduZW9uJyB8ICdzaGFkb3cnO1xuICAgIHRpdGxlOiBzdHJpbmc7XG4gICAgdGl0bGVBcjogc3RyaW5nO1xuICAgIGFjY2VudDogc3RyaW5nO1xuICAgIGFjY2VudEFyOiBzdHJpbmc7XG4gICAgc3VidGl0bGU6IHN0cmluZztcbiAgICBzdWJ0aXRsZUFyOiBzdHJpbmc7XG4gICAgY3VzdG9tSHRtbEVuYWJsZWQ6IGJvb2xlYW47XG4gICAgY3VzdG9tSHRtbDogc3RyaW5nO1xuICAgIGJ1dHRvbkV4cGxvcmVUZXh0OiBzdHJpbmc7XG4gICAgYnV0dG9uRXhwbG9yZVRleHRBcjogc3RyaW5nO1xuICAgIGJ1dHRvbkJvb2tUZXh0OiBzdHJpbmc7XG4gICAgYnV0dG9uQm9va1RleHRBcjogc3RyaW5nO1xuICAgIGFuaW1hdGlvbnNFbmFibGVkOiBib29sZWFuO1xuICB9O1xuICBtYWluQ29udGVudDoge1xuICAgIHNob3dDYXRlZ29yaWVzOiBib29sZWFuO1xuICAgIHNob3dGZWF0dXJlZDogYm9vbGVhbjtcbiAgICBzaG93T2ZmZXJzOiBib29sZWFuO1xuICAgIGNhdGVnb3JpZXNUaXRsZTogc3RyaW5nO1xuICAgIGNhdGVnb3JpZXNUaXRsZUFyOiBzdHJpbmc7XG4gICAgZmVhdHVyZWRUaXRsZTogc3RyaW5nO1xuICAgIGZlYXR1cmVkVGl0bGVBcjogc3RyaW5nO1xuICAgIG9mZmVyc1RpdGxlOiBzdHJpbmc7XG4gICAgb2ZmZXJzVGl0bGVBcjogc3RyaW5nO1xuICAgIGxheW91dFN0eWxlOiAnZ3JpZCcgfCAnc2xpZGVyJztcbiAgICBjdXN0b21DYXRlZ29yeUljb25zOiB7XG4gICAgICBBOiBzdHJpbmc7XG4gICAgICBCOiBzdHJpbmc7XG4gICAgICBDOiBzdHJpbmc7XG4gICAgICBTOiBzdHJpbmc7XG4gICAgfTtcbiAgICBpY29uQ29sb3I6IHN0cmluZztcbiAgICBpY29uU2l6ZTogJ3NtJyB8ICdtZCcgfCAnbGcnO1xuICB9O1xuICBmb290ZXI6IHtcbiAgICB2aXNpYmxlOiBib29sZWFuO1xuICAgIGNvbGxhcHNpYmxlOiBib29sZWFuO1xuICAgIGNvbnRlbnQ6IHN0cmluZztcbiAgICBjb250ZW50QXI6IHN0cmluZztcbiAgICBzb2NpYWxMaW5rczoge1xuICAgICAgZmFjZWJvb2s6IHN0cmluZztcbiAgICAgIGluc3RhZ3JhbTogc3RyaW5nO1xuICAgICAgd2hhdHNhcHA6IHN0cmluZztcbiAgICAgIHlvdXR1YmU6IHN0cmluZztcbiAgICAgIFtrZXk6IHN0cmluZ106IHN0cmluZztcbiAgICB9O1xuICAgIHF1aWNrTGlua3M6IHsgbGFiZWw6IHN0cmluZzsgbGFiZWxBcjogc3RyaW5nOyB1cmw6IHN0cmluZyB9W107XG4gICAgYWRkcmVzcz86IHN0cmluZztcbiAgICBhZGRyZXNzQXI/OiBzdHJpbmc7XG4gICAgcGhvbmU/OiBzdHJpbmc7XG4gICAgZW1haWw/OiBzdHJpbmc7XG4gICAgaG91cnNTdW5UaHU/OiBzdHJpbmc7XG4gICAgaG91cnNTdW5UaHVBcj86IHN0cmluZztcbiAgICBob3Vyc0ZyaT86IHN0cmluZztcbiAgICBob3Vyc0ZyaUFyPzogc3RyaW5nO1xuICAgIGhvdXJzU2F0Pzogc3RyaW5nO1xuICAgIGhvdXJzU2F0QXI/OiBzdHJpbmc7XG4gICAgY29weXJpZ2h0Pzogc3RyaW5nO1xuICAgIGNvcHlyaWdodEFyPzogc3RyaW5nO1xuICAgIGN1c3RvbVNvY2lhbExpbmtzPzogeyBpZDogc3RyaW5nOyBuYW1lOiBzdHJpbmc7IHVybDogc3RyaW5nOyBpY29uVXJsPzogc3RyaW5nIH1bXTtcbiAgfTtcbn1cbiJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7IiwibmFtZXMiOltdfQ==
+export type CategorySlug = 'A' | 'B' | 'C' | 'S';
+
+export interface MotorcycleSpecs {
+  engine: string;
+  topSpeed: string;
+  fuelConsumption: string;
+  power: string;
+  weight: string;
+}
+
+export interface AddOn {
+  id: string;
+  name: string;
+  nameAr?: string;
+  image: string;
+  description: string;
+  descAr?: string;
+  price: number;
+}
+
+export interface Motorcycle {
+  id: string;
+  name: string;
+  category: CategorySlug;
+  categoryName: string;
+  price: string;
+  priceNum: number;
+  image: string;
+  shortDesc: string;
+  longDesc: string;
+  specs: MotorcycleSpecs;
+  isPopular: boolean;
+  tagline: string;
+  // New features
+  catalogFileName?: string;
+  catalogFileContent?: string; // base64 string or file URL
+  originalPrice?: number;
+  discount?: number; // percentage or fixed value
+  discountType?: 'percentage' | 'fixed';
+  offerLabel?: string;
+  addOns?: AddOn[];
+  relatedProductIds?: string[];
+  serialCode?: string;
+}
+
+export interface BookingData {
+  motorcycleId: string;
+  motorcycleName: string;
+  category: CategorySlug;
+  price: string;
+  name: string;
+  phone: string;
+  email: string;
+  date: string;
+}
+
+export interface FilterState {
+  searchQuery: string;
+  category: CategorySlug | 'ALL';
+  priceRange: number; // Max price filter
+  sortBy: 'price-asc' | 'price-desc' | 'speed-desc' | 'default';
+  onlyPopular: boolean;
+}
+
+export type UserRole = 'Admin' | 'Manager' | 'Staff';
+
+export type StoreCategory = 'Oils' | 'Safety' | 'Smart' | 'Parts' | 'Lifestyle';
+
+export interface StoreProduct {
+  id: string; // The generated Product Code
+  name: string;
+  nameAr: string;
+  category: StoreCategory;
+  brand: string;
+  price: number;
+  originalPrice?: number;
+  discountPercentage?: number;
+  offerLabel?: string;
+  offerLabelAr?: string;
+  image: string;
+  galleryUrls: string[];
+  description: string;
+  descriptionAr: string;
+  specs: string; // Or mapped key-values
+  specsAr: string;
+  stockCount: number;
+  soldCount: number;
+  isHidden: boolean;
+  isOffer: boolean;
+  discount?: number;
+  discountType?: 'percentage' | 'fixed';
+}
+
+export interface CartItem {
+  id: string;
+  product: StoreProduct | Motorcycle | AddOn;
+  type: 'product' | 'motorcycle' | 'addon';
+  quantity: number;
+}
+
+export interface UserAccount {
+  username: string;
+  password?: string;
+  role: UserRole;
+}
+
+export interface HomepageConfig {
+  font: string;
+  fontHeadings?: string;
+  fontSubheadings?: string;
+  fontBody?: string;
+  invoiceWhatsappNumber?: string; // New WhatsApp number for invoices
+  theme: {
+    primaryColor: string;
+    secondaryColor: string;
+    backgroundColor: string;
+    buttonRadius: string;
+    iconShape: 'circle' | 'square' | 'squircle';
+    spacingMultiplier: number; // 0.8: Compact, 1.0: Normal, 1.2: Expanded
+  };
+  header: {
+    backgroundImage: string;
+    logoUrl: string;
+    logoText: string;
+    logoTextAr: string;
+    logoSize?: 'small' | 'medium' | 'large';
+    logoPosition?: 'left' | 'center';
+    logoEffect?: 'none' | 'glow' | 'neon' | 'shadow';
+    title: string;
+    titleAr: string;
+    accent: string;
+    accentAr: string;
+    subtitle: string;
+    subtitleAr: string;
+    customHtmlEnabled: boolean;
+    customHtml: string;
+    buttonExploreText: string;
+    buttonExploreTextAr: string;
+    buttonBookText: string;
+    buttonBookTextAr: string;
+    animationsEnabled: boolean;
+  };
+  mainContent: {
+    showCategories: boolean;
+    showFeatured: boolean;
+    showOffers: boolean;
+    categoriesTitle: string;
+    categoriesTitleAr: string;
+    featuredTitle: string;
+    featuredTitleAr: string;
+    offersTitle: string;
+    offersTitleAr: string;
+    layoutStyle: 'grid' | 'slider';
+    customCategoryIcons: {
+      A: string;
+      B: string;
+      C: string;
+      S: string;
+    };
+    iconColor: string;
+    iconSize: 'sm' | 'md' | 'lg';
+  };
+  footer: {
+    visible: boolean;
+    collapsible: boolean;
+    content: string;
+    contentAr: string;
+    socialLinks: {
+      facebook: string;
+      instagram: string;
+      whatsapp: string;
+      youtube: string;
+      [key: string]: string;
+    };
+    quickLinks: { label: string; labelAr: string; url: string }[];
+    address?: string;
+    addressAr?: string;
+    phone?: string;
+    email?: string;
+    hoursSunThu?: string;
+    hoursSunThuAr?: string;
+    hoursFri?: string;
+    hoursFriAr?: string;
+    hoursSat?: string;
+    hoursSatAr?: string;
+    copyright?: string;
+    copyrightAr?: string;
+    customSocialLinks?: { id: string; name: string; url: string; iconUrl?: string }[];
+  };
+}
