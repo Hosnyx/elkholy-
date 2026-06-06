@@ -1,10 +1,10 @@
-import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=905fa188"; const Fragment = __vite__cjsImport0_react_jsxDevRuntime["Fragment"]; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
+import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4a02cea"; const Fragment = __vite__cjsImport0_react_jsxDevRuntime["Fragment"]; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=905fa188"; const useState = __vite__cjsImport1_react["useState"]; const useEffect = __vite__cjsImport1_react["useEffect"]; const useMemo = __vite__cjsImport1_react["useMemo"];
-import { motion, AnimatePresence } from "/node_modules/.vite/deps/motion_react.js?v=905fa188";
+import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=d4a02cea"; const useState = __vite__cjsImport1_react["useState"]; const useEffect = __vite__cjsImport1_react["useEffect"]; const useMemo = __vite__cjsImport1_react["useMemo"];
+import { motion, AnimatePresence } from "/node_modules/.vite/deps/motion_react.js?v=f1f188c8";
 import {
   Bike,
   Heart,
@@ -16,7 +16,7 @@ import {
   ChevronRight,
   MessageCircle,
   ShoppingCart
-} from "/node_modules/.vite/deps/lucide-react.js?v=905fa188";
+} from "/node_modules/.vite/deps/lucide-react.js?v=1004c77f";
 import Navbar from "/src/components/Navbar.tsx";
 import FilterSection from "/src/components/FilterSection.tsx";
 import MotorcycleCard from "/src/components/MotorcycleCard.tsx";
@@ -30,7 +30,7 @@ import { MOTORCYCLES_DATA, HERO_BG_IMAGE, DEFAULT_HOMEPAGE_CONFIG } from "/src/d
 import { MOCK_STORE_PRODUCTS } from "/src/dataStoreMock.ts";
 import { useLanguage } from "/src/context/LanguageContext.tsx";
 import { db } from "/src/lib/firebase.ts";
-import { collection, doc, getDocs, setDoc, getDoc, deleteDoc, writeBatch } from "/node_modules/.vite/deps/firebase_firestore.js?v=905fa188";
+import { collection, doc, getDocs, setDoc, getDoc, deleteDoc, writeBatch } from "/node_modules/.vite/deps/firebase_firestore.js?v=09e70c7a";
 export default function App() {
   const { lang, dir, t } = useLanguage();
   const formatAppPrice = (num) => {

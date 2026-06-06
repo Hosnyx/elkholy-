@@ -1,11 +1,11 @@
-import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=905fa188"; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
+import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4a02cea"; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=905fa188"; const useState = __vite__cjsImport1_react["useState"]; const useEffect = __vite__cjsImport1_react["useEffect"];
-import { motion, AnimatePresence } from "/node_modules/.vite/deps/motion_react.js?v=905fa188";
-import { Bike, Heart, Menu, X, ArrowUpRight, Settings, ShoppingCart } from "/node_modules/.vite/deps/lucide-react.js?v=905fa188";
+import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=d4a02cea"; const useState = __vite__cjsImport1_react["useState"]; const useEffect = __vite__cjsImport1_react["useEffect"];
+import { motion, AnimatePresence } from "/node_modules/.vite/deps/motion_react.js?v=f1f188c8";
+import { Bike, Heart, Menu, X, ArrowUpRight, Settings, ShoppingCart } from "/node_modules/.vite/deps/lucide-react.js?v=1004c77f";
 import { useLanguage } from "/src/context/LanguageContext.tsx";
 export default function Navbar({
   favoriteCount,

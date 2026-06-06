@@ -1,15 +1,15 @@
-import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=905fa188"; const Fragment = __vite__cjsImport0_react_jsxDevRuntime["Fragment"]; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
+import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4a02cea"; const Fragment = __vite__cjsImport0_react_jsxDevRuntime["Fragment"]; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=905fa188"; const useState = __vite__cjsImport1_react["useState"];
-import { motion } from "/node_modules/.vite/deps/motion_react.js?v=905fa188";
-import { X, Calendar, User, Phone, Mail, CheckCircle2, MessageSquare, ArrowRight, Bike, ShoppingBag, Check } from "/node_modules/.vite/deps/lucide-react.js?v=905fa188";
+import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=d4a02cea"; const useState = __vite__cjsImport1_react["useState"];
+import { motion } from "/node_modules/.vite/deps/motion_react.js?v=f1f188c8";
+import { X, Calendar, User, Phone, Mail, CheckCircle2, MessageSquare, ArrowRight, Bike, ShoppingBag, Check } from "/node_modules/.vite/deps/lucide-react.js?v=1004c77f";
 import { useLanguage } from "/src/context/LanguageContext.tsx";
 import { MOTORCYCLES_DATA } from "/src/data.ts";
 import { db } from "/src/lib/firebase.ts";
-import { doc, setDoc } from "/node_modules/.vite/deps/firebase_firestore.js?v=905fa188";
+import { doc, setDoc } from "/node_modules/.vite/deps/firebase_firestore.js?v=09e70c7a";
 export default function BookingModal({
   motorcycleId,
   motorcycleName,

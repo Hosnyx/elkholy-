@@ -1,6 +1,6 @@
-import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=905fa188"; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
-import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=905fa188"; const useState = __vite__cjsImport1_react["useState"];
-import { Plus, Edit2, Trash2, Package } from "/node_modules/.vite/deps/lucide-react.js?v=905fa188";
+import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4a02cea"; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
+import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=d4a02cea"; const useState = __vite__cjsImport1_react["useState"];
+import { Plus, Edit2, Trash2, Package } from "/node_modules/.vite/deps/lucide-react.js?v=1004c77f";
 import { useLanguage } from "/src/context/LanguageContext.tsx";
 export default function StoreAdminPanel({ storeProducts, onUpdateStoreProducts }) {
   const { lang, dir, t } = useLanguage();

@@ -2,9 +2,9 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-import { initializeApp } from "/node_modules/.vite/deps/firebase_app.js?v=905fa188";
-import { getAuth, GoogleAuthProvider } from "/node_modules/.vite/deps/firebase_auth.js?v=905fa188";
-import { getFirestore, doc, getDocFromServer } from "/node_modules/.vite/deps/firebase_firestore.js?v=905fa188";
+import { initializeApp } from "/node_modules/.vite/deps/firebase_app.js?v=5513e304";
+import { getAuth, GoogleAuthProvider } from "/node_modules/.vite/deps/firebase_auth.js?v=85c07116";
+import { getFirestore, doc, getDocFromServer } from "/node_modules/.vite/deps/firebase_firestore.js?v=09e70c7a";
 import firebaseConfig from "/firebase-applet-config.json?import";
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app, firebaseConfig.firestoreDatabaseId);

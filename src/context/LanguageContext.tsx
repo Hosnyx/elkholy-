@@ -1,9 +1,9 @@
-import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=905fa188"; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
+import __vite__cjsImport0_react_jsxDevRuntime from "/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=d4a02cea"; const jsxDEV = __vite__cjsImport0_react_jsxDevRuntime["jsxDEV"];
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=905fa188"; const createContext = __vite__cjsImport1_react["createContext"]; const useContext = __vite__cjsImport1_react["useContext"]; const useState = __vite__cjsImport1_react["useState"]; const useEffect = __vite__cjsImport1_react["useEffect"];
+import __vite__cjsImport1_react from "/node_modules/.vite/deps/react.js?v=d4a02cea"; const createContext = __vite__cjsImport1_react["createContext"]; const useContext = __vite__cjsImport1_react["useContext"]; const useState = __vite__cjsImport1_react["useState"]; const useEffect = __vite__cjsImport1_react["useEffect"];
 import { TRANSLATIONS } from "/src/translations.ts";
 const LanguageContext = createContext(void 0);
 export function LanguageProvider({ children }) {
